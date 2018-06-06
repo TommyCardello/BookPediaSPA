@@ -1,0 +1,131 @@
+{
+"records": [
+  {
+    "Title" : "The Lion, the Witch and the Wardrobe",
+    "id" : "LionLewis",
+    "Author" : "C. S. Lewis",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Dramma",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Da Vinci Code",
+    "id" : "DanVinci",
+    "Author" : "Dan Brown",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Novel",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "Think and Grow Rich",
+    "id" : "Napoleon",
+    "Author" : "Napoleon Hill",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Romance",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "Harry Potter",
+    "id" : "HarryRowling",
+    "Author" : "J. K. Rowling",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Adventure",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Catcher in the Rye",
+    "id" : "Salinger",
+    "Author" : "J. D. Salinger  ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Historical",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Outsider",
+    "id" : "Camus",
+    "Author" : "Albert Camus",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Detective",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "Remembrance of Things Past",
+    "id" : "Marcel",
+    "Author" : "Marcel Proust",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Romance",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Trial",
+    "id" : "Kafka",
+    "Author" : "Franz Kafka",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Adventure",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Little Prince",
+    "id" : "SaintPrince",
+    "Author" : "Antoine de Saint-Exupéry",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Historical",
+    "shortBio" : "shortBio for this book"
+  }, 
+  {
+    "Title" : "Man's Fate ",
+    "id" : "Malraux",
+    "Author" : "André Malraux ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Dramma",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "Journey to the End of the Night  ",
+    "id" : "JourneyLouis",
+    "Author" : "Louis-Ferdinand Céline  ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Novel",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "The Grapes of Wrath  ",
+    "id" : "Steinbeck",
+    "Author" : "John Steinbeck  ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Romance",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "For Whom the Bell Tolls  ",
+    "id" : "Ernest",
+    "AuthorId": "Ern",
+    "Author" : "Ernest Hemingway  ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Adventure",
+    "shortBio" : "shortBio for this book"
+  },
+  {
+    "Title" : "Le Grand Meaulnes  ",
+    "id" : "Meaulnes",
+    "Author" : "Alain-Fournier  ",
+    "AuthorBio" : "Placeholder for Author bio",
+    "AuthorBooks" : "Placeholder for a list of author books",
+    "Genre" : "Historical",
+    "shortBio" : "When Meaulnes first arrives in Sologne, everyone is captivated by his good looks, daring, and charisma. But when he attends a strange party at a mysterious house with a beautiful girl hidden inside, he is changed forever. This evocative novel has at its center both a Peter Pan in provincial France-a kid who refuses to grow up-and a Parsifal, pursuing his love to the ends of the earth. Poised between youthful admiration and adult resignation, Alain- Fournier's narrator compellingly carries the reader through this indelible portrait of desperate friendship and vanished adolescence."
+  }
+]
+}

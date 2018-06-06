@@ -1,0 +1,29 @@
+<div class="container" ng-controller='genInfoCtrl'>
+
+  <!-- Search bar -->
+  <div>
+    <p>
+      <h1>Find what you need</h1>
+    </p>
+    <button class="btn btn-primary btn-lg btn-block" ng-click="toggle()">
+      Search
+    </button>
+    <p ng-hide='mySearch' align="center">
+      Search a book you want: <input type="text" class="form-control text-center" placeholder='Enter book name' align="text-center" ng-model='searchBooks'>
+    </p>
+  </div>
+
+  <table class="table table-striped table-hover">
+    <thead><tr>
+      <th>Titles</th>
+      <th>Authors</th>
+      <th>Genres</th>
+    </tr></thead>
+    <tbody  ng-controller='authorsBioCtrl'><tr ng-repeat="book in books | filter:searchBooks | orderBy:'title'">
+      <td>{{ book.title }}<a class="btn btn-default" href="#/booksBio/{{book.id}}">Learn more &raquo;</a></td>
+      <td>{{ book.author }}<a class="btn btn-default" href="#/authorsBio/{{book.authorId}}">Learn more author &raquo;</a></td>
+      <td>{{ book.genre }}</td>
+    </tr></tbody>
+  </table>
+
+</div>

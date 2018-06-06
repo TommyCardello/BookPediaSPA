@@ -1,0 +1,48 @@
+<div class="center-block" ng-controller='authorBooks'>
+  
+  <div class="row container">
+    <div class="col-sm-3">
+      <div ng-repeat="bookImage in authors.authorImage">
+        <img ng-src="{{bookImage}}">
+      </div>
+    </div>
+    <div class="col-sm-9 ">
+      	<h2 class="text-center">{{authors.author}}</h2>
+        <p class="h4 text-center"><i>{{authors.bDate}}</i></p>
+        <blockquote class="blockquote-reverse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <footer>{{authors.author}}</cite></footer>
+        </blockquote>
+    </div>
+    <div>
+      <p class="text-justify">{{authors.authorBio}}</p>
+    </div>
+  </div>
+
+  <div class="col-md-5 container" ng-controller='authorGenresCtrl'>
+    <h3>Genres:</h3>
+     <div class="h5 lead col-xs-offset-1" ng-repeat='genre in authorGenres'>{{genre}}            
+       <!-- Single button -->
+       <div class="btn-group" dropdown>
+          <button dropdown-toggle type="button" class="btn btn-default dropdown-toggle" data-toggle="ropdown" aria-expanded="false">
+            Authors 
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li ng-repeat="author in authorsByGenre(genre)"><a href="#/authorsBio/{{book.authorId}}">{{author}}</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+          </ul>
+       </div>
+     </div>
+  </div>
+
+  <div class="col-md-7 container">
+    <ul>
+      <h3>Books:</h3>
+    	<li class="col-xs-offset-1" ng-repeat="book in booksByAuthor"><p>{{book.title}}</p><a class="btn btn-default" href="#/booksBio/{{book.id}}">Learn more &raquo;</a></li>
+    </ul>
+  </div>
+
+</div>
+

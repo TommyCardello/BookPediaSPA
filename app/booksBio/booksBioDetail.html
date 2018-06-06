@@ -1,0 +1,13 @@
+<div ng-controller='bookDetailCtrl'>
+	<div class="col-md-4 col-md-8">
+		<div ng-repeat="bookImage in books.images">
+			<img ng-src="{{bookImage}}">
+		</div>
+	</div>	
+	<div class="col-md-8 col-sm-4" ng-controller='authorsBioCtrl'>
+		<h1>{{books.title}}</h1>
+		<h4><i>by {{books.author}} <a class="btn btn-default" href="#/authorsBio/{{books.authorId}}">Learn more author &raquo;</a></i></h4>
+		<a class="btn btn-default" href="#/genres/{{books.genreId}}">{{books.genre}}</a>
+		<p>{{books.shortBio}}</p>
+	</div>
+</div>
